@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlpyn1sw5or7s"]
+
+[ext_resource type="Script" path="res://DeleteButton.gd" id="1_nhg2s"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -45.5
+offset_top = -15.5
+offset_right = 45.5
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Delete Me!"
+script = ExtResource("1_nhg2s")
+
+[node name="Camera2D" type="Camera2D" parent="."]
